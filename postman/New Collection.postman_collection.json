@@ -1,0 +1,113 @@
+{
+  "info": {
+    "_postman_id": "ec87df5b-2e0b-491d-a649-4273c24fca80",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "26359779",
+    "_collection_link": "https://go.postman.co/collection/26359779-ec87df5b-2e0b-491d-a649-4273c24fca80?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:5000/api/properties/6a590e6ead1fb6ae36f3258c",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Cozy Downtown Apartment\",\r\n  \"description\": \"A nice 2 bedroom apartment close to downtown.\",\r\n  \"price\": 1500,\r\n  \"location\": \"Waterloo, ON\",\r\n  \"bedrooms\": 2,\r\n  \"bathrooms\": 1\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/properties/6a590e6ead1fb6ae36f3258c",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "properties",
+            "6a590e6ead1fb6ae36f3258c"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "http://localhost:5000/api/properties/6a590e6ead1fb6ae36f3258c",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"title\": \"Cozy Downtown Apartment\",\r\n  \"description\": \"A nice 2 bedroom apartment close to downtown.\",\r\n  \"price\": 1500,\r\n  \"location\": \"Waterloo, ON\",\r\n  \"bedrooms\": 2,\r\n  \"bathrooms\": 1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:5000/api/properties/6a590e6ead1fb6ae36f3258c",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "properties",
+                "6a590e6ead1fb6ae36f3258c"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "302"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"12e-w+Ftz5JK1xB0tzxrUp3e4l5bOYY\""
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 16 Jul 2026 17:32:11 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"_id\": \"6a590e6ead1fb6ae36f3258c\",\n    \"title\": \"Cozy Downtown Apartment\",\n    \"description\": \"A nice 2 bedroom apartment close to downtown.\",\n    \"price\": 1500,\n    \"location\": \"Waterloo, ON\",\n    \"bedrooms\": 2,\n    \"bathrooms\": 1,\n    \"isFavorited\": false,\n    \"createdAt\": \"2026-07-16T17:01:34.032Z\",\n    \"updatedAt\": \"2026-07-16T17:01:34.032Z\",\n    \"__v\": 0\n}"
+        }
+      ]
+    }
+  ]
+}
