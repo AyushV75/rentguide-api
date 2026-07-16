@@ -1,0 +1,2 @@
+## Known Limitations
+- Authorization is role-based only (authenticated vs. not), not ownership-based. Any logged-in user can currently edit/delete any property, not just their own. Planned improvement: add an `owner` field to the Property model tied to the creating user's ID, and restrict update/delete to the owner.
